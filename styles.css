@@ -31,18 +31,21 @@ main
     border: 10px solid black;
     text-align: center;
     padding: 10px;
-    box-sizing: content-box;
+    width: 100%;
+    box-sizing: border-box;
 }
 .formular{
     display: flex;
     flex-direction: column;
     align-items: center;
     border:none;
-    width: 100%;
 }
+    
 .formular section{
     width: 50%;
-
+}
+h2+p{
+    margin: 0;
 }
 label , #submit{
     background-color: rgb(58, 57, 57);
@@ -54,13 +57,15 @@ label , #submit{
 input{
     width: 98%;
     height:2rem;
+    margin-bottom: 5px;
 }
  #submit{
     text-align: center;
     width: 100%;
+    margin-bottom: 2rem;
  }
  
  footer{
     text-align: center;
-    padding-top: 1rem;
+    padding: 1rem;
  }
