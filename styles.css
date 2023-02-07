@@ -1,0 +1,71 @@
+body
+{
+    border: 5px solid wheat;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+header img {
+    position: relative;
+    left: 30%;
+    margin-top: 2%;
+}
+main 
+{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+    
+}
+.text, .formular{
+    background-color: rgba(255, 255, 255, 0.74);
+    border: 10px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.formular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:none;
+}
+    
+.formular section{
+    width: 50%;
+}
+h2+p{
+    margin: 0;
+}
+label , #submit{
+    background-color: rgb(58, 57, 57);
+    color: white;
+    display:block;
+    text-align: left;
+    padding: 5px;
+}
+input{
+    width: 98%;
+    height:2rem;
+    margin-bottom: 5px;
+}
+ #submit{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+ }
+ 
+ footer{
+    text-align: center;
+    padding: 1rem;
+ }
